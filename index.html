@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en" itemscope itemtype="http://schema.org/Product"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Flipped Classroom: Your Steps to Success - A Kaltura Webinar</title>
+        <meta name="description" content="Join this webinar to learn from their experience - the best practices and the dos and don'ts of utilizing next generation video technology in the classroom and beyond. Hear why the flipped classroom could be the future of learning in every higher education institution and how it could benefit your students.">
+        <meta name="author" content="Kaltura">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        
+        <link rel="stylesheet" href="./style.css" type="text/css" charset="utf-8"/>
+        
+        <!--Facebook Metadata /-->
+        <meta property="og:url" content="http://videos.kaltura.com/flipped_webinar/" />
+        <!-- Use the following as the URL to make Mobile devices to directly play the video instead of going to the hosting site.
+            The video will not really play in-lin on the FB wall, it will be opened in a new browser window and, thus in Mobile will launche the native player.
+            Note – This will make a poor experience on Desktop, and will disable our ability to collect statistics, as it will directly go to the video instead through our player.
+            Note 2 – this will FAIL in Facebook's debugger, even though it will work in the Wall. The reason it fails is because Facebook expects a real website URL on og:url. 
+            Note 3 – on Tablet users expect in-browser playback, and this will immediately launch the native player instead…
+        <meta property="og:url" content="http://cdnapi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/1_c9mv0l7n/flavorId/1_4uy46pgt/format/url/protocol/http/a.mp4" />
+        -->
+        <!-- Set the following to get Facebook insights/tracking 
+            Get your Facebook app Id from: https://developers.facebook.com/apps/	
+        -->
+        <meta property="fb:app_id" content="122405801272254" />
+        <!-- Video details: -->
+        <meta property="og:title" content="Flipped Classroom: Your Steps to Success - A Kaltura Webinar" />
+        <meta property="og:description" content="Join this webinar to learn from their experience - the best practices and the dos and don'ts of utilizing next generation video technology in the classroom and beyond. Hear why the flipped classroom could be the future of learning in every higher education institution and how it could benefit your students." />
+        <!-- This describes the nature of this video to Facebook, it doesn't have a practical use yet. 
+            Facebook probably use it internally for better content classification.
+            Can be: 'video.movie', 'video.episode', 'video.tv_show', or 'video.other'
+             -->
+        <meta property="og:type" content="video.other" />
+        <!-- This is the thumbnail for the video: -->
+        <meta property="og:image" content="http://cdnbakmi.kaltura.com/p/243342/sp/24334200/thumbnail/entry_id/1_c9mv0l7n/version/100004/width/600" />
+        <!-- probably used for internal site classification, no aparent practical use yet -->
+        <meta property="og:site_name" content="Flipped Classroom: Your Steps to Success - A Kaltura Webinar" />
+        <!-- The Flash video version -->
+        <meta property="og:video" content="http://cdnapi.kaltura.com/index.php/kwidget/cache_st/1355965070/wid/_243342/uiconf_id/11748601/entry_id/1_c9mv0l7n" />
+        <meta property="og:video:secure_url" content="https://cdnsecakmi.kaltura.com/index.php/kwidget/cache_st/1355965070/wid/_243342/uiconf_id/11748601/entry_id/1_c9mv0l7n" />
+        <meta property="og:video:width" content="600" />
+        <meta property="og:video:height" content="340" />	
+        <meta property="og:video:type" content="application/x-shockwave-flash" />
+        <!-- The HTML5 fallback video version -->
+        <meta property="og:video" content="http://cdnapi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/1_c9mv0l7n/flavorId/1_4uy46pgt/format/url/protocol/http/a.mp4" />
+        <meta property="og:video:secure_url" content="https://cdnsecakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/1_c9mv0l7n/flavorId/1_4uy46pgt/format/url/protocol/http/a.mp4" />
+        <meta property="og:video:width" content="600" />
+        <meta property="og:video:height" content="340" />
+        <meta property="og:video:type" content="video/mp4" />
+        <!-- 
+            There are two bugs with Facebook's video fallback:
+            Secure URL is not acted on: http://developers.facebook.com/bugs/374114345976370/
+            type video/mp4 is not acted on: http://developers.facebook.com/bugs/463064127056326/ 
+            According to Facebook, the Open Graph was modified in 2011.
+            The original specifications: http://developers.facebook.com/docs/opengraphprotocol/
+            The new specifications: https://developers.facebook.com/docs/opengraph/video/
+            You'll notice that in the original specs Facebook defined 'fallback' tags for mp4 on HTML5 environments.
+            The new specs obviously dropped that support, as no fallback nor mp4 tags are defined.
+        -->
+        <!-- Additional metadata about your video: -->
+        <!-- When was the video first released, expressed in ISO 8061 format -->
+        <meta property="og:video:release_date" content="2013-03-15" />
+        <meta property="og:video:duration" content="107" /> <!-- video duration in seconds -->
+        <!-- For more, visit: https://developers.facebook.com/docs/opengraph/video/ -->
+        
+        <!--Google+ Metadata -
+            For more info: https://developers.google.com/+/plugins/snippet/
+            Google+ claims to support schema.org and facebook's open graph
+            We're adding the following schema.org for best compliancy as Google+ doesn't seem to recognize video from OG
+            Note the inline tags on the kaltura_player div as well
+            More info about schema.org at: http://schema.org/VideoObject
+            To debug your page, use: http://www.google.com/webmasters/tools/richsnippets 
+        -->
+        <meta itemprop="name" content="Flipped Classroom: Your Steps to Success - A Kaltura Webinar">
+        
+        <link rel="stylesheet" href="http://static.stupeflix.com/play/1.2/style-min.css" type="text/css" charset="utf-8"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./fencybox/jquery.fancybox.pack.js?v=2.1.4"></script>
+        <link rel="stylesheet" type="text/css" href="./fencybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+        <script type="text/javascript">
+            $(document).ready(function() {
+                kWidget.addReadyCallback( function( playerId ){
+                    var kdp = $('#' + playerId ).get(0);
+                    kdp.kBind( 'playerPlayEnd.flippedwebinar', function() {
+                        $.fancybox.open({
+                            padding: 0,
+                            closeClick : true,
+                            closeBtn: true,
+                            helpers : {
+                                overlay : null
+                            },
+                            href : 'https://www4.gotomeeting.com/register/438110367',
+                            type : 'iframe'
+                        });
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Facebook Social Plugins: -->
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=122405801272254";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div id="header">
+            <div id="logo">
+                <a href="http://videos.kaltura.com">
+                    <img src="./img/kaltura_logo.png" alt="Videos Portal Home">
+                </a>
+            </div>
+            <div id="inspirelogo">
+                <a href="http://corp.kaltura.com/live-webinars">
+                    <img src="./img/kaltura-inspire-webinar.png" alt="Kaltura Inspire Webinars Home">
+                </a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="main-banner">
+            <div id="maincontent">
+                <div id="title">
+                    <h1>Flipped Classroom</h1>
+                    <h2>Your Steps to Success</h2>
+                    <h3>Kaltura Inspire Webinar</h3>
+                    <p>Watch this short video to experience our <span style="font-weight:bold;">flip webinar!</span></p>
+                    <!-- AddThis Button BEGIN -->
+                    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                        <a class="addthis_button_preferred_1"></a>
+                        <a class="addthis_button_preferred_2"></a>
+                        <a class="addthis_button_preferred_3"></a>
+                        <a class="addthis_button_preferred_4"></a>
+                        <a class="addthis_button_compact"></a>
+                        <a class="addthis_counter addthis_bubble_style"></a>
+                    </div>
+                    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=kalturaorg"></script>
+                    <!-- AddThis Button END -->
+                </div>
+                <div id="mainvideo">
+                    <!-- Kaltura Player Embed (AutoEmbed): -->
+                    <script src="http://cdnapi.kaltura.com/p/243342/sp/24334200/embedIframeJs/uiconf_id/12644921/partner_id/243342?autoembed=true&entry_id=1_c9mv0l7n&playerId=kaltura_player_1363377843&cache_st=1363377843&width=586&height=360&flashvars[streamerType]=hdnetworkmanifest&flashvars[akamaiHD.loadingPolicy]=preInitialize&flashvars[akamaiHD.asyncInit]=true&flashvars[twoPhaseManifest]=true"></script>
+                    <!-- Prompt IE 6 users to install Chrome Frame. We suggest that you not support IE 6.
+                       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+                    <!--[if lt IE 7 ]>
+                        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+                        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+                    <![endif]-->
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="subcontent">
+            <h1>Join the discussion...</h1>
+            <div class="fb-comments" data-href="http://videos.kaltura.com/flipped_webinar/" data-width="960" data-num-posts="10"></div>
+        </div>
+        
+        
+        <div class="footerContainer" id="footer">
+            <div class="footercontent">
+                <p class="footer-text">Kaltura provides the world’s first Open Source Online Video Platform, transforming the way people work, learn, and entertain using online video.  The Kaltura platform engages hundreds of millions of viewers by providing media companies advanced video management, publishing, and monetization tools that increase their reach and monetization and simplify their video operations. Kaltura offers next generation learning for millions of students and teachers by providing educational institutions disruptive online video solutions for improved teaching, learning, and increased engagement across campuses and beyond. For more information visit: <a href="http://corp.kaltura.com" target="_blank">corp.kaltura.com</a>.</p>
+                <hr>
+                <a href="http://corp.kaltura.com/" class="footer-logo"><img width="103" height="56" src="./img/kaltura-logo-footer.png"></a>
+                
+                <p class="footer-copyright">Copyright © <span id="yearspan">2013</span> Kaltura Inc.<br>
+    All Rights Reserved. Designated trademarks and brands are the property of their respective owners, Use of this web site constitutes acceptance of the <a href="http://corp.kaltura.com/terms-of-use">Terms of Use</a> and <a href="http://corp.kaltura.com/privacy-policy">Privacy Policy</a>, User submitted media on this site is licensed under: Creative Commons Attribution-Share Alike 3.0 Unported License. Creative Commons License</p>
+            </div>
+        </div>
+        
+        <!-- Social Widget Rendering Javascript /-->
+        <script src="http://platform.twitter.com/widgets.js"></script>
+        <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+        </script>
+        
+        <!-- Marketo Tracking -->
+        <script type="text/javascript">
+            document.write(unescape("%3Cscript src='" + document.location.protocol + "//munchkin.marketo.net/munchkin.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script>Munchkin.init('984-SDM-859');</script>
+
+        <!-- InsightEra Tracking -->
+        <script type="text/javascript">
+			window.AIConfig = {};
+			window.AIConfig.accountId = 'kaltura-videos';
+			window.AIConfig.mailTextField = 'edit-submitted-contact-email';
+			document.write(unescape("%3Cscript src='http://cloud.insightera.com/js/it.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+
+        <!-- Google Analytics Tracking -->
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-33351224-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    outline: 0;
+    line-height: inherit;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #71787a;
+    margin: 0;
+}
+#main-banner h1 {
+    color: white;
+    font-style: italic;
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #06505f;
+}
+#main-banner h2 {
+    color: #01586b;
+    font-size: 31px;
+    font-weight: normal;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #07ccea;
+    line-height: 1;
+}
+#main-banner h3 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: normal;
+    color: #00436c;
+    text-shadow: 1px 1px 1px #2dbdd5;
+    margin-top:20px;
+}
+#main-banner p {
+    color: #002332;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #2dbdd5;
+    margin-top: 6px;
+}
+#title {
+    padding-top:100px;
+    float:left;
+    width: 370px;
+}
+#header {
+    width: 960px;
+    margin: 0 auto;
+}
+#logo {
+    float:left;
+}
+#inspirelogo {
+    float:right;
+}
+#main-banner {
+    width: 100%;
+    background: url(./img/bg.png);
+    height: 362px;
+}
+#maincontent {
+    width: 960px;
+    padding-top:2px;
+    margin: 0 auto;
+}
+#subcontent {
+    width: 960px;
+    padding-top:16px;
+    margin: 0 auto;
+}
+#mainvideo {
+    width: 586px;
+    float: right;
+}
+.fb-comments {
+    margin-top:10px;
+}
+.footerContainer {
+    width: 100%;
+    background-color: #228da3;
+    font-size: 0.92em;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+#footer {
+    position: relative;
+    margin-top: 100px;
+    height: 180px;
+    clear: both;
+}
+.footercontent {
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 10px;
+    width: 940px;
+}
+p.footer-text {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin: 0 0 18px;
+}
+.footerContainer hr {
+    height: 1px;
+    border: 0;
+    background-color: #2e9bb2;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+.footer-logo {
+    float: left;
+    margin-right: 20px;
+    margin-top: 14px;
+}
+.footerContainer a {
+    color: #71E4FC;
+}
+p.footer-copyright {
+    font-size: 10px;
+    text-align: left;
+    padding-top: 27px;
+    line-height: 1.6;
+    margin: 0 0 18px;
+}
+div.addthis_toolbox {
+    margin-top: 30px;
+}
