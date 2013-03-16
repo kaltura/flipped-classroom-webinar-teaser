@@ -133,6 +133,15 @@ p.footer-copyright {
     line-height: 1.6;
     margin: 0 0 18px;
 }
-div.addthis_toolbox {
+div#actionbuttons {
     margin-top: 30px;
+}
+div.addthis_toolbox {
+    float: left;
+    width: 170px;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+div#registerbtn {
+    float:left;
 }

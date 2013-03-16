@@ -99,6 +99,18 @@
                         });
                     });
                 });
+                $("#registerbtn a").click(function() {
+                    $.fancybox.open({
+                        padding: 0,
+                        closeClick : true,
+                        closeBtn: true,
+                        helpers : {
+                            overlay : null
+                        },
+                        href : 'https://www4.gotomeeting.com/register/438110367',
+                        type : 'iframe'
+                    });
+                });
             });
         </script>
     </head>
@@ -134,22 +146,26 @@
                     <h2>Your Steps to Success</h2>
                     <h3>Kaltura Inspire Webinar</h3>
                     <p>Watch this short video to experience our <span style="font-weight:bold;">flip webinar!</span></p>
-                    <!-- AddThis Button BEGIN -->
-                    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-                        <a class="addthis_button_preferred_1"></a>
-                        <a class="addthis_button_preferred_2"></a>
-                        <a class="addthis_button_preferred_3"></a>
-                        <a class="addthis_button_preferred_4"></a>
-                        <a class="addthis_button_compact"></a>
-                        <a class="addthis_counter addthis_bubble_style"></a>
+                    <div id="actionbuttons">
+                        <div id="registerbtn">
+                            <a href="#">
+                                <img src="./img/webinar-register-button.png" alt="Kaltura Inspire Webinars Home">
+                            </a>
+                        </div>
+                        <!-- AddThis Button BEGIN -->
+                        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                            <a class="addthis_button_preferred_1"></a>
+                            <a class="addthis_button_preferred_2"></a>
+                            <a class="addthis_button_preferred_3"></a>
+                        </div>
+                        <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=kalturaorg"></script>
+                        <!-- AddThis Button END -->
                     </div>
-                    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=kalturaorg"></script>
-                    <!-- AddThis Button END -->
                 </div>
                 <div id="mainvideo">
                     <!-- Kaltura Player Embed (AutoEmbed): -->
-                    <script src="https://cdnsecakmi.kaltura.com/p/243342/sp/24334200/embedIframeJs/uiconf_id/12644921/partner_id/243342?autoembed=true&entry_id=1_c9mv0l7n&playerId=kaltura_player_1363377843&cache_st=1363377843&width=586&height=360&flashvars[streamerType]=hdnetworkmanifest&flashvars[akamaiHD.loadingPolicy]=preInitialize&flashvars[akamaiHD.asyncInit]=true&flashvars[twoPhaseManifest]=true"></script>
+                    <script src="http://cdnapi.kaltura.com/p/243342/sp/24334200/embedIframeJs/uiconf_id/12644921/partner_id/243342?autoembed=true&entry_id=1_c9mv0l7n&playerId=kaltura_player_1363377843&cache_st=1363377843&width=586&height=360&flashvars[streamerType]=hdnetworkmanifest&flashvars[akamaiHD.loadingPolicy]=preInitialize&flashvars[akamaiHD.asyncInit]=true&flashvars[twoPhaseManifest]=true"></script>
                     <!-- Prompt IE 6 users to install Chrome Frame. We suggest that you not support IE 6.
                        chromium.org/developers/how-tos/chrome-frame-getting-started -->
                     <!--[if lt IE 7 ]>
