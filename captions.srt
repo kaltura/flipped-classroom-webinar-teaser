@@ -1,0 +1,99 @@
+1
+00:00:05,199 --> 00:00:08,587
+As we've been preparing for our "flipped-classroom" webinar
+
+2
+00:00:08,587 --> 00:00:11,505
+We decided to experiement with "flipping" our own webinar
+
+3
+00:00:11,505 --> 00:00:16,347
+And this short video is our attempt to share key concepts about the flipped-classroom model
+
+4
+00:00:16,347 --> 00:00:19,147
+in preparation for the more interactive webinar.
+
+5
+00:00:19,147 --> 00:00:23,707
+The flipped classroom requires students to prepare better for class,
+
+6
+00:00:23,707 --> 00:00:28,154
+and for professors to conduct a more interactive session in the classroom.
+
+7
+00:00:28,154 --> 00:00:30,346
+The implementation is quite simple,
+
+8
+00:00:30,346 --> 00:00:32,905
+Professors pre-record a short video
+
+9
+00:00:32,905 --> 00:00:36,027
+about the class work, share it with their students
+
+10
+00:00:36,027 --> 00:00:39,153
+Students then watch the video at home at their own pace
+
+11
+00:00:39,153 --> 00:00:44,346
+and then, the class is used for a more interactive dialog and session.
+
+12
+00:00:44,346 --> 00:00:46,944
+There are many benefits to this model
+
+13
+00:00:46,944 --> 00:00:51,788
+First of all, the class work becomes more interactive and engaging
+
+14
+00:00:51,788 --> 00:00:54,653
+Students arrive better prepared to the class
+
+15
+00:00:54,653 --> 00:00:57,985
+And many students can learn at their own personal pace
+
+16
+00:00:57,985 --> 00:01:02,265
+There are however, a few challenges to implementing the flipped-classroom model;
+
+17
+00:01:02,265 --> 00:01:07,466
+Professors are often intimidated of prerecording these videos.
+
+18
+00:01:07,466 --> 00:01:12,546
+Many of the professors are also not accustomed to conducting interactive sessions in the class.
+
+19
+00:01:12,565 --> 00:01:17,664
+Students also do not necessarily like to prepare better for class,
+
+20
+00:01:17,664 --> 00:01:20,235
+or to interact in the classroom.
+
+21
+00:01:20,235 --> 00:01:27,109
+There are also practical barriers such as what technology to use when recording and sharing the videos.
+
+22
+00:01:27,109 --> 00:01:34,585
+At Kaltura, we are sure we can help resolve these challenges and offer ways to address them
+
+23
+00:01:34,585 --> 00:01:38,506
+in order to offer an optimal flipped-classroom model.
+
+24
+00:01:38,506 --> 00:01:42,666
+We invite you to join our webinar and learn more this topic.
+
+25
+00:01:42,666 --> 00:01:44,108
+Thank you.
